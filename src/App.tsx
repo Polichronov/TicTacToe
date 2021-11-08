@@ -1,5 +1,4 @@
-import { useState } from 'react'
-import logo from './logo.svg'
+import React from 'react'
 import './App.css'
 import Game from './screens/TicTacToe/game'
 

@@ -1,14 +1,15 @@
 import React from "react";
 import { SquareType } from "../../types/TicTacToe";
+import { Button } from 'baseui/button';
 
 const Square = ({
     value,
     onClick
 } : SquareType) => {
     return(
-        <button className="square" onClick={onClick} >
+        <Button onClick={onClick} >
           {value}
-        </button>)
+        </Button>)
 }
 
 export default Square;
